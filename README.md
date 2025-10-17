@@ -63,21 +63,21 @@ A portfolio project showing web design skills and services.
   <h2>My Projects</h2>
   <div class="project-cards">
     <div class="project">
-      <img src="Portfolio.png " alt="Project 1">
+      <img src="https://placehold.co/400x250/ffc2d1/ffffff?text=Portfolio+Website" alt="Portfolio Website">
       <h3>Modern Portfolio Website</h3>
       <p>A responsive portfolio built with HTML, CSS, and JavaScript.</p>
-      <a href="https://yourprojectlink.com" target="_blank" class="btn">View Project</a>
+      <a href="https://github.com/DannyAI05/Portfolio-project" target="_blank" class="btn">View Project</a>
     </div>
 
     <div class="project">
-      <img src="nova space-landing page.png" alt="Project 2">
+      <img src="https://placehold.co/400x250/ffb6c1/ffffff?text=Landing+Page+Design" alt="Landing Page Design">
       <h3>Landing Page Design</h3>
       <p>Clean, minimal landing page made with Figma and Canva.</p>
       <a href="https://www.figma.com/design/YNqvKu7YWX9sWqzfXjyFXr/Nova-Space---Landing-Page?t=lOK3lWKeP7Fjw1Je-1" target="_blank" class="btn">View Design</a>
     </div>
 
     <div class="project">
-      <img src="e-commerce product page.png" alt="Project 3">
+      <img src="https://placehold.co/400x250/faa0b3/ffffff?text=E-commerce+UI+Prototype" alt="E-commerce UI Prototype">
       <h3>E-commerce UI Prototype</h3>
       <p>App UI prototype created using Adobe Illustrator and Figma.</p>
       <a href="https://www.figma.com/design/D9U5XcGHRllhZwRWer05Ie/E-Commerce-Product-Page?t=lOK3lWKeP7Fjw1Je-1" target="_blank" class="btn">View Prototype</a>
