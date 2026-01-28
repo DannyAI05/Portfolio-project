@@ -3,122 +3,112 @@ A portfolio project showing web design skills and services.
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Danny Designs</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Danny Designs | UI/UX Designer</title>
+
+    <meta name="description"
+        content="Danny Designs — Freelance UI/UX designer specializing in modern web and app interfaces using Figma and Canva." />
+
+    <link rel="stylesheet" href="style.css" />
 </head>
-<body style="background-color:soft white;">
 
-  <!-- Navigation Bar -->
-  <header>
-    <nav>
-      <div class="logo">DANNY DESIGNS</div>
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+<body id="top">
+
+<header>
+    <nav class="container">
+        <div class="logo">DANNY DESIGNS</div>
+
+        <ul class="nav-links">
+            <li><a href="#top">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact" class="btn small">Hire Me</a></li>
+        </ul>
     </nav>
-  </header>
+</header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <h1>Reliable and exquisite UI/UX designs.</h1>
-    <p>We design projects according to client wants and make your ideas come to life.</p>
+<section class="hero container reveal">
+    <h1>Designing modern UI/UX experiences that convert ideas into reality.</h1>
+    <p>I help startups and businesses create clean, user-friendly interfaces using Figma & Canva.</p>
     <a href="#contact" class="btn">Get a Free Quote</a>
-  </section>
-
-  <!-- About Section -->
-  <section id="about" class="about">
-    <div class="about-image"></div>
-    <div class="about-text">
-      <h2>About Danny Designs</h2>
-      <p>Having experience with design tools like Figma, Canva, Adobe Illustrator and so on we are efficient in creating all client desires and still with continous learning.</p>
-    </div>
-  </section>
-
-  <!-- Services Section -->
-  <section id="services" class="services">
-    <h2>Our Services</h2>
-    <div class="service-cards">
-      <div class="card">
-        <h3>Figma Designs</h3>
-        <p>We can provide landing pages,UI apps and webpages.</p>
-      </div>
-      <div class="card">
-        <h3>Canva Designs</h3>
-        <p>Flyers ,Instagram Reels ,Business Cards and Posters.</p>
-      </div>
-      <div class="card">
-        <h3>Prototypes</h3>
-        <p>Concerning webpages and sites and even App UI, prototypes are available.</p>
-      </div>
-    </div>
-  </section>
-
-<!-- Projects Section -->
-<section id="projects" class="projects">
-  <h2>My Projects</h2>
-  <div class="project-cards">
-    <div class="project">
-      <img src="https://placehold.co/400x250/ffc2d1/ffffff?text=Portfolio+Website" alt="Portfolio Website">
-      <h3>Modern Portfolio Website</h3>
-      <p>A responsive portfolio built with HTML, CSS, and JavaScript.</p>
-      <a href="https://github.com/DannyAI05/Portfolio-project" target="_blank" class="btn">View Project</a>
-    </div>
-
-    <div class="project">
-      <img src="https://placehold.co/400x250/ffb6c1/ffffff?text=Landing+Page+Design" alt="Landing Page Design">
-      <h3>Landing Page Design</h3>
-      <p>Clean, minimal landing page made with Figma and Canva.</p>
-      <a href="https://www.figma.com/design/YNqvKu7YWX9sWqzfXjyFXr/Nova-Space---Landing-Page?t=lOK3lWKeP7Fjw1Je-1" target="_blank" class="btn">View Design</a>
-    </div>
-
-    <div class="project">
-      <img src="https://placehold.co/400x250/faa0b3/ffffff?text=E-commerce+UI+Prototype" alt="E-commerce UI Prototype">
-      <h3>E-commerce UI Prototype</h3>
-      <p>App UI prototype created using Adobe Illustrator and Figma.</p>
-      <a href="https://www.figma.com/design/D9U5XcGHRllhZwRWer05Ie/E-Commerce-Product-Page?t=lOK3lWKeP7Fjw1Je-1" target="_blank" class="btn">View Prototype</a>
-    </div>
-  </div>
 </section>
 
+<section id="about" class="about container reveal">
+    <h2>About Me</h2>
+    <p>
+        I’m a passionate UI/UX designer experienced in Figma, Canva and Illustrator.
+        I focus on clean layouts, usability and modern design trends to help brands stand out.
+    </p>
+</section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="contact">
-    <h2>Contact Us</h2>
-    <p>Email: danielawakhu54@gmail.com</p>
-    <p>Phone: +254 115956300</p>
-  </section>
+<section id="services" class="services container reveal">
+    <h2>Services</h2>
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 Danny Designs. All rights reserved.</p>
-  </footer>
+    <div class="cards">
+        <div class="card">
+            <h3>UI Design</h3>
+            <p>Web and mobile interfaces designed in Figma.</p>
+        </div>
 
-<script>
-alert("Welcome to our website!");
-</script>
-<script>
-  // Fade-in effect on scroll
-  const sections = document.querySelectorAll("section");
+        <div class="card">
+            <h3>Graphic Design</h3>
+            <p>Flyers, posters, social media & branding materials.</p>
+        </div>
 
-  const revealSection = () => {
-    const triggerBottom = window.innerHeight * 0.85;
-    sections.forEach(section => {
-      const boxTop = section.getBoundingClientRect().top;
-      if (boxTop < triggerBottom) {
-        section.classList.add("visible");
-      }
-    });
-  };
+        <div class="card">
+            <h3>Prototyping</h3>
+            <p>Interactive clickable prototypes for apps and websites.</p>
+        </div>
+    </div>
+</section>
 
-  window.addEventListener("scroll", revealSection);
-  revealSection(); // run on load
-</script>
+<section id="projects" class="projects container reveal">
+    <h2>Selected Work</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Portfolio Website</h3>
+            <p>Responsive website design using HTML & CSS.</p>
+            <a href="https://github.com/DannyAI05" target="_blank">View Project →</a>
+        </div>
+
+        <div class="card">
+            <h3>Landing Page UI</h3>
+            <p>Modern landing page designed in Figma.</p>
+            <a href="#" target="_blank">View Design →</a>
+        </div>
+
+        <div class="card">
+            <h3>Mobile Banking App</h3>
+            <p>High-fidelity UI prototype built in Figma.</p>
+            <a href="#" target="_blank">View Prototype →</a>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact container reveal">
+    <h2>Let’s Work Together</h2>
+    <p>Email: <a href="mailto:danielawakhu54@gmail.com">danielawakhu54@gmail.com</a></p>
+    <p>Phone: +254 115 956 300</p>
+</section>
+
+<footer>
+    <p>© 2026 Danny Designs. All rights reserved.</p>
+</footer>
+
+<a
+  href="https://wa.me/254115956300"
+  class="whatsapp-float"
+  target="_blank"
+  aria-label="Chat on WhatsApp"
+>
+    💬
+</a>
 
 
+<script src="scriptt.js"></script>
 </body>
 </html>
