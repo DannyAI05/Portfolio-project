@@ -21,7 +21,6 @@ As a Computer Science student, I enjoy combining technology with creativity to d
 * 🧩 Reusable design components
 * 🌈 Consistent color palettes and typography
 * 📐 Auto Layout implementation
-* 🖼️ Interactive prototypes
 * 👥 User-centered design approach
 * ♿ Accessibility considerations
 
@@ -29,7 +28,7 @@ As a Computer Science student, I enjoy combining technology with creativity to d
 
 ## 🛠️ Tools Used
 
-* Figma
+* [Figma](https://www.figma.com)
 * Material Design
 * Google Fonts
 * Icons (Material Symbols / Heroicons / Lucide)
